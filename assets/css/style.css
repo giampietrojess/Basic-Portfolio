@@ -1,1 +1,6 @@
 h1 {color: blue;}
+
+.wrapper { width: 960px;
+position: relative;}
+
+.about { width: 640px;}
