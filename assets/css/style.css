@@ -1,6 +1,9 @@
 h1 {color: blue;}
 
 .wrapper { width: 960px;
-position: relative;}
+    margin: 0 auto;
+    position: relative;}
 
 .about { width: 640px;}
+
+.connect { width:270px; }
