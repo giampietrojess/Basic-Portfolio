@@ -53,7 +53,13 @@ h2 {
 }
 .imagelinks { 
     width:50px;
+    opacity: 1;
+    display: inline;
+    height: auto;
 }
+.imagelinks:hover {
+    opacity: 0.3;
+  }
 #biopic { 
     padding:20px; 
 }
