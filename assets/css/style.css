@@ -56,7 +56,7 @@ h2 {
 }
 .content { 
     background-color: #fff;
-    width: 630px;
+    width: 628px;
     float: left;
     border: 2px black solid;
     padding: 10px;
@@ -64,11 +64,11 @@ h2 {
 }
 .connect { 
     background-color: #fff;
-    width:250px;
+    width:248px;
     border: 2px black solid;
     float: left;
     position: relative;
-    margin-left: 10px;
+    margin-left: 30px;
     padding: 10px;
     text-align: center; 
 }
