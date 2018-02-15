@@ -56,7 +56,7 @@ h2 {
 }
 .content { 
     background-color: #fff;
-    width: 628px;
+    width: 626px;
     float: left;
     border: 2px black solid;
     padding: 10px;
@@ -64,7 +64,7 @@ h2 {
 }
 .connect { 
     background-color: #fff;
-    width:248px;
+    width:246px;
     border: 2px black solid;
     float: left;
     position: relative;
