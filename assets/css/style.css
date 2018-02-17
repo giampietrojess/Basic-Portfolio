@@ -19,10 +19,6 @@ body {
     height: 80px;
     float: left;
 }
-img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
 .name {
     color: #fff;
     width: 25%;
@@ -40,9 +36,9 @@ h1 {
     padding: 25px;
     font-family: 'Comfortaa';
     text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
 }
 .toplinks {
-    width: 30%;
     border: 0px black solid;
     padding: 30px;
     text-align: center;
@@ -51,8 +47,10 @@ h1 {
 h2 {
     color: #352A54;
     border-bottom: 2px lightgray solid;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-family: 'Comfortaa';
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0px 10px;
 }
 .wrapper { 
     width: 960px;
@@ -90,6 +88,7 @@ h2 {
   }
 #biopic { 
     padding:20px; 
+    float: left;
 }
 a {
     text-decoration: none;
@@ -128,7 +127,7 @@ a:hover {
     letter-spacing: 1px;
     text-align: center;
   }
-  .image_box {
+.image_box {
     background-color: #fafafa;
     height: 195px;
     width: 265px;
@@ -139,7 +138,7 @@ a:hover {
     display: inline-block;
     position: relative;
   }
-  .image_thumbnail {
+.image_thumbnail {
     object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
     object-position: center; /* Center the image within the element */
     width: 265px;
@@ -187,3 +186,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     background-image: none;
     color: rgb(0, 0, 0);
 }
+body.index a.index, body.portfolio a.portfolio, body.contact a.contact {
+    color: white;
+    background-color: #7d88c7;
+    }
