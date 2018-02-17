@@ -87,8 +87,9 @@ h2 {
     background-color: lightskyblue;
   }
 #biopic { 
-    padding:20px; 
+    margin:20px; 
     float: left;
+    box-shadow: 5px 5px #657397;
 }
 a {
     text-decoration: none;
